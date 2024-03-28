@@ -1,0 +1,9 @@
+<launch>
+
+    <node pkg="service2_pkg" type="final_haptic_camera_node_2.py" name="camera12" output="screen"></node>
+     <node pkg="service2_pkg" type="final_hapticraj.py" name="haptic" output="screen"></node>
+
+
+
+
+</launch>
