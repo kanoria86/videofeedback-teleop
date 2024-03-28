@@ -1,0 +1,7 @@
+<launch>
+
+   <node pkg="service_pkg" type="cameranode_2.py" name="camera" output="screen"></node>
+   <node pkg="service_pkg" type="final_ur5raj_camera.py" name="ur5" output="screen"></node>
+ 
+
+</launch>
